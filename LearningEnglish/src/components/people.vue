@@ -39,7 +39,7 @@
             <label class="text_m">野原新之助</label>
             <div class="cube text_s">
               <label class="side front">年紀：5歲</label>
-              <label class="side top">使用時間:2天</label>
+              <label class="side top">學習時間:2天</label>
             </div>
             <label class="text_d"
             >麻麻~我可以帶小白一起去上學嗎?我想讓小白也學英文，這個網站好好玩，我好喜歡！
@@ -58,7 +58,7 @@
             <label class="text_m">Zoe Roth</label>
             <div class="cube text_s">
               <label class="side front">年紀:4歲</label>
-              <label class="side top">使用時間:3個月</label>
+              <label class="side top">學習時間:3個月</label>
             </div>
             <label class="text_d"
             >Fire~Fire~Fire~Fire~Fire~Fire~Fire~Fire~Fire~
@@ -78,7 +78,7 @@
             <label class="text_m">小丸子</label>
             <div class="cube text_s">
               <label class="side front">年紀:9歲</label>
-              <label class="side top">使用時間:半年</label>
+              <label class="side top">學習時間:半年</label>
             </div>
             <label class="text_d ">我覺得這個英文學習網站好有趣！每次學到新單字，像是在玩遊戲一樣。還有好多有趣的故事可以看，我超喜歡！學習變得好開心，好像在冒險！
             </label>
@@ -119,7 +119,7 @@
           <div class="text">
             <label class="text_m">阿兩</label>
             <div class="cube text_s">
-              <label class="side front">年紀:35</label>
+              <label class="side front">年紀:35歲</label>
               <label class="side top">學習時間:2年</label>
             </div>
             <label class="text_d"

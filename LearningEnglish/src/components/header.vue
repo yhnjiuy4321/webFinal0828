@@ -173,6 +173,7 @@
 </style>
 
 <script>
+window.scrollTo(0, 0);
 import { useRouter } from 'vue-router';
 export default {
   name: 'Header',
@@ -195,7 +196,5 @@ export default {
   });
   }
 }
-// 當用戶點擊按鈕時，切換選單顯示
-
 
 </script>

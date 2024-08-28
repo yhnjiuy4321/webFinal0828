@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>考試專區</h1>
     <div class="grid-container">
       <div v-for="(article, index) in articles" :key="index" class="card" @click="goToArticle(index)">
         <p class="card-content">{{ article.title }}</p>
@@ -32,6 +33,7 @@ export default {
     goToArticle(index) {
       // 導航到對應的文章詳細頁面，將文章ID作為參數
       this.$router.push({ name: 'e_Article', params: { id: this.articles[index].id } });
+      window.scrollTo(0, 0);
     }
   }
 }
@@ -43,13 +45,21 @@ export default {
   color: white;
 }
 
+.container>h1 {
+  font-size: 46px;
+  color:  #137544;
+  text-align: center;
+  margin-top: 110px;
+}
+
 .grid-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   padding: 20px;
   background-color: #137544;
-  margin-top:100px;
+  grid-template-columns: repeat(4, 1fr); /* 每行4個卡片 */
+  margin-top:40px;
   margin-bottom:10px;
 }
 

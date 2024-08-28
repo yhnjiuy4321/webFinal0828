@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>兒童文章</h1>
     <div class="grid-container">
       <div v-for="(article, index) in articles" :key="index" class="card" @click="goToArticle(index)">
         <p class="card-content">{{ article.title }}</p>
@@ -32,6 +33,8 @@ export default {
     goToArticle(index) {
       // 導航到對應的文章詳細頁面，將文章ID作為參數
       this.$router.push({ name: 'c_Article', params: { id: this.articles[index].id } });
+      //畫面跳轉到最上面
+      window.scrollTo(0, 0);
     }
   }
 }
@@ -43,6 +46,13 @@ export default {
   color: white;
 }
 
+.container>h1 {
+  font-size: 46px;
+  color: #e38a8a;
+  text-align: center;
+  margin-top: 110px;
+}
+
 .grid-container {
   display: flex;
   flex-wrap: wrap;
@@ -50,7 +60,7 @@ export default {
   gap: 10px;
   padding: 20px;
   background-color: #e38a8a;
-  margin-top:100px;
+  margin-top:40px;
   margin-bottom:10px;
 }
 
@@ -65,6 +75,7 @@ export default {
   justify-content: center;
   color: black; /* 確保文字顏色為黑色 */
   cursor: pointer; /* 鼠標移動到卡片上時顯示為點擊手勢 */
+
 }
 
 .card-content {

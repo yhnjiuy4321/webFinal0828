@@ -35,9 +35,9 @@
 export default {
   data() {
     return {
-      title1: 'Learning English',
-      title2: 'Learning English',
-      title3:'Learning English'
+      title1: 'The best website of Learning English',
+      title2: 'Happy Learning',
+      title3:'Learning Together'
     }
   },
 };
@@ -58,6 +58,7 @@ export default {
   width: 1200px;
   height: 300px;
   object-fit: cover;
+  filter: brightness(75%);
 }
 .carousel-caption h1 {
   font-size: 3em;
